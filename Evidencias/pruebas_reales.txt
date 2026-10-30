@@ -1,0 +1,13 @@
+TAREA 3.2 | Pruebas reales de los modelos en C#
+Entorno: .NET 8.0.33
+Sistema: Ubuntu 24.04.3 LTS
+CORRECTO: lista enlazada propia; 2500 pasos reproducibles y límites.
+CORRECTO: Stack<int>, Queue<int> y List<int>; 40 datos y orden de salida.
+CORRECTO: comparación; arreglo acepta 5 y lista enlazada acepta 8.
+DEMO enlazada: buscar 20 -> posición 2; eliminar -> 20; [10,15,30].
+DEMO genéricas: pila retira 30; cola retira 10.
+DEMO List<int>: Count=7; Capacity=8; sin usar=1.
+Después de Limpiar: Count=0; Capacity=8.
+Después de Compactar: Count=0; Capacity=0.
+TOTAL: 13214 verificaciones superadas.
+La interfaz Windows Forms no se ejecutó en este entorno.
